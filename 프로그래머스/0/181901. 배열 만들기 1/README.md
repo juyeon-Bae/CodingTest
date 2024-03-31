@@ -1,10 +1,10 @@
 # [level 0] 배열 만들기 1 - 181901 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181901) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181901?language=javascript) 
 
 ### 성능 요약
 
-메모리: 76.2 MB, 시간: 1.95 ms
+메모리: 36.6 MB, 시간: 2.12 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 2월 0일 18:13:38
+2024년 03월 31일 19:29:29
 
 ### 문제 설명
 
