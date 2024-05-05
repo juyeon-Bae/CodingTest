@@ -1,7 +1,4 @@
 function solution(arr) {
-    var answer = 0;
-    for(x of arr){
-        answer +=x;
-    }
+    var answer = arr.reduce((a,b)=> a+b);
     return answer/arr.length;
 }
