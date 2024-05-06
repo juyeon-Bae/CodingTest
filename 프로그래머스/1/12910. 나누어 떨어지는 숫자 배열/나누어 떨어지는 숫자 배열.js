@@ -1,4 +1,8 @@
 function solution(arr, divisor) {
-    var answer = arr.filter(i => i % divisor == 0);
-    return answer.length < 1 ? [-1] : answer.sort((a,b)=>a-b);
+    var answer = [];
+    arr.sort((a, b) => a - b); 
+    for(var i=0; i<arr.length; i++)
+        if(arr[i]%divisor == 0) answer.push(arr[i]);
+        if(answer.length === 0) answer.push(-1);
+    return answer;
 }
