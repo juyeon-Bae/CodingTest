@@ -1,3 +1,3 @@
 function solution(arr) {
-    return arr.join("");
+    return arr.join('');
 }
