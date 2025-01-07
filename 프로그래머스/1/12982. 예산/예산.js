@@ -1,12 +1,10 @@
 function solution(d, budget) {
-    var answer = 0;
-    d.sort((a,b)=>a-b);
-    d.reduce((arr,cur)=>
-             {
-        if(arr + cur <=budget){
-            answer++
-            return arr+ cur
-        }//if
-    } ,0)
+    let answer = 0;
+    let save = 0;
+    d.sort((a,b)=>a-b)
+    for(let i=0; i<d.length; i++){
+        save += d[i];
+        if(save <= budget) answer++
+    }
     return answer;
 }
