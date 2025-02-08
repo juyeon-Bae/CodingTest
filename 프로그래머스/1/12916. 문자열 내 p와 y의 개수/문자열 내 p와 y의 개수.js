@@ -1,3 +1,5 @@
 function solution(s){
-    return s.toLowerCase().split("p").length === s.toLowerCase().split("y").length;
+    var answer = true;
+    let word = s.toLowerCase();
+    return word.split('p').length === word.split('y').length;
 }
